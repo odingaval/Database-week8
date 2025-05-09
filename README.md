@@ -1,5 +1,6 @@
-📚 Library Management System - Database Project
-🏷️ Project Title
+📚 **Library Management System - Database Project**
+
+🏷️**Project Title**
 
 Library Management System Database
 A comprehensive MySQL database for managing library operations
@@ -20,7 +21,7 @@ This project implements a complete relational database system for library manage
     Staff management
 
 The database follows proper normalization principles (3NF) with appropriate constraints and relationships to ensure data integrity.
-🛠️ Technologies Used
+🛠️ **Technologies Used**
 
     MySQL (Compatible with MySQL 5.7+ and MariaDB)
 
@@ -28,14 +29,14 @@ The database follows proper normalization principles (3NF) with appropriate cons
 
     SQL Constraints (PK, FK, CHECK, UNIQUE, NOT NULL)
 
-🚀 Setup Instructions
+🚀 **Setup Instructions**
 Prerequisites
 
     MySQL Server installed (version 5.7 or higher)
 
     MySQL client (command line, Workbench, or other interface)
 
-Installation
+**Installation**
 
     Clone or download the project repository
 
@@ -57,12 +58,17 @@ Alternative Method (Using MySQL Workbench)
 
     Execute the entire script (Ctrl+Shift+Enter)
 
-📊 Entity Relationship Diagram (ERD)
+## 📊 Database Schema
 
-Library Management System ERD
-Visual representation of the database structure showing tables and relationships
+### Entity Relationship Diagram
+![Library Management System ERD](https://i.imgur.com/JQ6Yv7m.png)
 
-View interactive ERD online
+[View interactive diagram](https://dbdiagram.io/d/64f1a5d002bd1c4a5e9a1a2a)
+
+Key relationships:
+- Members → Borrowings (One-to-Many)
+- Books → BookCopies (One-to-Many)
+- Books ↔ Authors (Many-to-Many)
 🏗️ Database Schema Overview
 
 The database consists of 11 main tables:
