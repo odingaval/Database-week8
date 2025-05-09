@@ -4,7 +4,8 @@
 
 Library Management System Database
 A comprehensive MySQL database for managing library operations
-📝 Description
+
+📝 **Description**
 
 This project implements a complete relational database system for library management, designed to handle:
 
@@ -62,7 +63,7 @@ Alternative Method (Using MySQL Workbench)
 
 **Entity Relationship Diagram**
 
-[View interactive diagram](https://dbdiagram.io/d/681dce475b2fc4582fe4f8ed)
+[View interactive diagram](https://dbdiagram.io/d/Library-management-system-681dce475b2fc4582fe4f8ed)
 
 Key relationships:
 - Members → Borrowings (One-to-Many)
