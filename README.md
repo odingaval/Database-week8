@@ -58,18 +58,19 @@ Alternative Method (Using MySQL Workbench)
 
     Execute the entire script (Ctrl+Shift+Enter)
 
-## 📊 Database Schema
+📊 **Database Schema**
 
-### Entity Relationship Diagram
-![Library Management System ERD](https://i.imgur.com/JQ6Yv7m.png)
+**Entity Relationship Diagram**
 
-[View interactive diagram](https://dbdiagram.io/d/64f1a5d002bd1c4a5e9a1a2a)
+[View interactive diagram](https://dbdiagram.io/d/681dce475b2fc4582fe4f8ed)
 
 Key relationships:
 - Members → Borrowings (One-to-Many)
 - Books → BookCopies (One-to-Many)
 - Books ↔ Authors (Many-to-Many)
-🏗️ Database Schema Overview
+
+  
+🏗️ **Database Schema Overview**
 
 The database consists of 11 main tables:
 
@@ -98,6 +99,6 @@ The database consists of 11 main tables:
 📜 License
 
 This project is open-source and available under the MIT License.
-✉️ Contact
+✉️ Contact odingaval71@gmail.com
 
 For questions or suggestions, please open
